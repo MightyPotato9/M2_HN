@@ -1,0 +1,319 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="model:Analyse des axes_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="model:Analyse des axes" type="QString"/>
+      <Option name="component_description" value="Analyse des axes" type="QString"/>
+      <Option name="component_pos_x" value="227.20000000000016" type="double"/>
+      <Option name="component_pos_y" value="483.2" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="model:Analyse des axes_1" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Axes qualifiés" type="Map">
+          <Option name="child_id" value="model:Analyse des axes_1" type="QString"/>
+          <Option name="component_description" value="Axes qualifiés" type="QString"/>
+          <Option name="component_pos_x" value="291.20000000000016" type="double"/>
+          <Option name="component_pos_y" value="587.3999999999997" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option name="mandatory" value="false" type="bool"/>
+          <Option name="name" value="Axes qualifiés" type="QString"/>
+          <Option name="output_name" value="qgis:fieldcalculator_1:Axes qualifiés" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="axes" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="model:Axes_1" type="QString"/>
+            <Option name="output_name" value="qgis:deletecolumn_1:Axes" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="filaire" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="filaire" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="model:Analyse des façades_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="model:Analyse des façades" type="QString"/>
+      <Option name="component_description" value="Analyse des façades" type="QString"/>
+      <Option name="component_pos_x" value="595.9999999999998" type="double"/>
+      <Option name="component_pos_y" value="472.79999999999995" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="model:Analyse des façades_1" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Distance entre façades" type="Map">
+          <Option name="child_id" value="model:Analyse des façades_1" type="QString"/>
+          <Option name="component_description" value="Distance entre façades" type="QString"/>
+          <Option name="component_pos_x" value="795.9999999999998" type="double"/>
+          <Option name="component_pos_y" value="517.8" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option name="mandatory" value="false" type="bool"/>
+          <Option name="name" value="Distance entre façades" type="QString"/>
+          <Option name="output_name" value="qgis:deletecolumn_2:Distance entre façades" type="QString"/>
+        </Option>
+        <Option name="Linéaire de façade" type="Map">
+          <Option name="child_id" value="model:Analyse des façades_1" type="QString"/>
+          <Option name="component_description" value="Linéaire de façade" type="QString"/>
+          <Option name="component_pos_x" value="787.9999999999999" type="double"/>
+          <Option name="component_pos_y" value="571.8" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option name="mandatory" value="false" type="bool"/>
+          <Option name="name" value="Linéaire de façade" type="QString"/>
+          <Option name="output_name" value="qgis:deletecolumn_1:Linéaire de façade" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="filaire" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="filaire" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="masque" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="voirie" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="parcelles" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="model:Axes_1" type="QString"/>
+            <Option name="output_name" value="qgis:deletecolumn_2:Parcelles qualifiées" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="model:Axes_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="model:Axes" type="QString"/>
+      <Option name="component_description" value="Axes" type="QString"/>
+      <Option name="component_pos_x" value="390.4000000000001" type="double"/>
+      <Option name="component_pos_y" value="389.6" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="model:Axes_1" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Parcellaire" type="Map">
+          <Option name="child_id" value="model:Axes_1" type="QString"/>
+          <Option name="component_description" value="Parcellaire" type="QString"/>
+          <Option name="component_pos_x" value="694.4000000000001" type="double"/>
+          <Option name="component_pos_y" value="420.20000000000005" type="double"/>
+          <Option name="default_value" type="invalid"/>
+          <Option name="mandatory" value="false" type="bool"/>
+          <Option name="name" value="Parcellaire" type="QString"/>
+          <Option name="output_name" value="qgis:deletecolumn_2:Parcelles qualifiées" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="issuesetangles" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="model:Issues et angles_1" type="QString"/>
+            <Option name="output_name" value="native:joinattributestable_2:Issues et angles" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="voirie" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="voirie" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="model:Densité_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="model:Densité" type="QString"/>
+      <Option name="component_description" value="Densité" type="QString"/>
+      <Option name="component_pos_x" value="692.7999999999997" type="double"/>
+      <Option name="component_pos_y" value="171.2" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="model:Densité_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="bti" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="bti" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="parcellaire" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="parcellaire" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="model:Issues et angles_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="model:Issues et angles" type="QString"/>
+      <Option name="component_description" value="Issues et angles" type="QString"/>
+      <Option name="component_pos_x" value="395.20000000000016" type="double"/>
+      <Option name="component_pos_y" value="312.00000000000006" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="model:Issues et angles_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="filaire" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="filaire" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="masque" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="voirie" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="parcelles" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="model:Densité_1" type="QString"/>
+            <Option name="output_name" value="qgis:deletecolumn_1:Parcellaire qualifié" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option name="modelVariables"/>
+  <Option name="model_group" value="" type="QString"/>
+  <Option name="model_name" value="Processus complet" type="QString"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="bti" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="2" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="description" value="Bâti" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="bti" type="QString"/>
+      <Option name="parameter_type" value="vector" type="QString"/>
+    </Option>
+    <Option name="filaire" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="1" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="description" value="Filaire" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="filaire" type="QString"/>
+      <Option name="parameter_type" value="vector" type="QString"/>
+    </Option>
+    <Option name="model:Analyse des axes_1:Axes qualifiés" type="Map">
+      <Option name="create_by_default" value="true" type="bool"/>
+      <Option name="data_type" value="-1" type="int"/>
+      <Option name="default" type="invalid"/>
+      <Option name="description" value="Axes qualifiés" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="model:Analyse des axes_1:Axes qualifiés" type="QString"/>
+      <Option name="parameter_type" value="sink" type="QString"/>
+      <Option name="supports_non_file_outputs" value="true" type="bool"/>
+    </Option>
+    <Option name="model:Analyse des façades_1:Distance entre façades" type="Map">
+      <Option name="create_by_default" value="true" type="bool"/>
+      <Option name="data_type" value="-1" type="int"/>
+      <Option name="default" type="invalid"/>
+      <Option name="description" value="Distance entre façades" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="model:Analyse des façades_1:Distance entre façades" type="QString"/>
+      <Option name="parameter_type" value="sink" type="QString"/>
+      <Option name="supports_non_file_outputs" value="true" type="bool"/>
+    </Option>
+    <Option name="model:Analyse des façades_1:Linéaire de façade" type="Map">
+      <Option name="create_by_default" value="true" type="bool"/>
+      <Option name="data_type" value="-1" type="int"/>
+      <Option name="default" type="invalid"/>
+      <Option name="description" value="Linéaire de façade" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="model:Analyse des façades_1:Linéaire de façade" type="QString"/>
+      <Option name="parameter_type" value="sink" type="QString"/>
+      <Option name="supports_non_file_outputs" value="true" type="bool"/>
+    </Option>
+    <Option name="model:Axes_1:Parcellaire" type="Map">
+      <Option name="create_by_default" value="true" type="bool"/>
+      <Option name="data_type" value="-1" type="int"/>
+      <Option name="default" type="invalid"/>
+      <Option name="description" value="Parcellaire" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="model:Axes_1:Parcellaire" type="QString"/>
+      <Option name="parameter_type" value="sink" type="QString"/>
+      <Option name="supports_non_file_outputs" value="true" type="bool"/>
+    </Option>
+    <Option name="parcellaire" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="2" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="description" value="Parcellaire" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="parcellaire" type="QString"/>
+      <Option name="parameter_type" value="vector" type="QString"/>
+    </Option>
+    <Option name="voirie" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="2" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="description" value="Voirie" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="voirie" type="QString"/>
+      <Option name="parameter_type" value="vector" type="QString"/>
+    </Option>
+  </Option>
+  <Option name="parameters" type="Map">
+    <Option name="bti" type="Map">
+      <Option name="component_description" value="bti" type="QString"/>
+      <Option name="component_pos_x" value="804" type="double"/>
+      <Option name="component_pos_y" value="60" type="double"/>
+      <Option name="name" value="bti" type="QString"/>
+    </Option>
+    <Option name="filaire" type="Map">
+      <Option name="component_description" value="filaire" type="QString"/>
+      <Option name="component_pos_x" value="124.79999999999993" type="double"/>
+      <Option name="component_pos_y" value="61.60000000000002" type="double"/>
+      <Option name="name" value="filaire" type="QString"/>
+    </Option>
+    <Option name="parcellaire" type="Map">
+      <Option name="component_description" value="parcellaire" type="QString"/>
+      <Option name="component_pos_x" value="584" type="double"/>
+      <Option name="component_pos_y" value="60" type="double"/>
+      <Option name="name" value="parcellaire" type="QString"/>
+    </Option>
+    <Option name="voirie" type="Map">
+      <Option name="component_description" value="voirie" type="QString"/>
+      <Option name="component_pos_x" value="355.99999999999994" type="double"/>
+      <Option name="component_pos_y" value="63.19999999999999" type="double"/>
+      <Option name="name" value="voirie" type="QString"/>
+    </Option>
+  </Option>
+</Option>
